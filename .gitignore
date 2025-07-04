@@ -1,0 +1,68 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Virtual environments
+.env
+.venv
+env/
+venv/
+ENV/
+
+# Package files
+dist/
+build/
+*.egg-info/
+*.egg
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# IDE
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Data files (large files should not be in git)
+data/
+datasets/
+raw_data/
+processed_data/
+
+# Results and outputs
+results/
+outputs/
+plots/
+figures/
+*.csv
+*.json
+*.xlsx
+*.pickle
+*.pkl
+
+# Scientific computing files
+*.h5
+*.hdf5
+*.npz
+
+# Logs and temporary files
+*.log
+temp/
+tmp/
+*.tmp
+*~
+
+# Configuration files
+config.ini
+.env.local
+
+# NEST specific
+nest_config.yaml
+device_settings.json
+calibration_data/
+instrument_logs/ 
